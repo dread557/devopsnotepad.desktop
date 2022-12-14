@@ -169,9 +169,9 @@ export default function Settings() {
 
 	return (
 		<div className={style.settingsPage}>
-			{/* <div>
+			<div>
 				<Sidenav />
-			</div> */}
+			</div>
 			<div className={style.settingsContainer}>
 				<div className={style.pageTop}>
 					<div className={style.arrowLeft} onClick={() => navigate(-1)}>
